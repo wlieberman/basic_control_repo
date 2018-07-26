@@ -1,0 +1,36 @@
+# vi temporary files
+*.swp
+
+# Vagrant VM working dirs
+.vagrant
+
+# JetBrains (i.e. RubyMine) IDE project files
+.idea/
+
+# eclipse/geppetto project file
+.project
+
+modules/
+Puppetfile.lock
+tmp/
+
+# rake spec output
+results.xml
+
+reports/
+pkg/
+Gemfile.lock
+Gemfile.local
+vendor/
+.vendor/
+spec/fixtures/manifests
+spec/fixtures/modules
+.bundle
+.ruby-version
+coverage/
+log/
+.dependencies/
+.librarian/
+*.iml
+.*.sw?
+.yardoc/

@@ -1,0 +1,3 @@
+---
+ntp::package_ensure: 'latest'
+ntp::service_ensure: 'running'
