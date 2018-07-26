@@ -7,7 +7,6 @@ mod 'puppetlabs/inifile', :latest
 mod 'puppet/make', :latest
 mod 'puppetlabs/ntp', :latest
 mod 'puppetlabs/pe_gem', :latest
-mod 'puppet/portage', :latest
 mod 'zack/r10k', :latest
 mod 'puppetlabs/ruby', :latest
 mod 'puppet/staging', :latest

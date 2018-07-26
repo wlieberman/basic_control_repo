@@ -1,0 +1,22 @@
+---
+fixtures:
+  symlinks:
+    profiles: "#{source_dir}/site/profiles"
+    roles: "#{source_dir}/site/roles"
+    hieradata: "#{source_dir}/hieradata"
+
+  forge_modules:
+    apache: 'puppetlabs/apache'
+    concat: 'puppetlabs/concat'
+    firewall: 'puppetlabs/firewall'
+    gcc: 'puppetlabs/gcc'
+    git: 'puppetlabs/git'
+    inifile: 'puppetlabs/inifile'
+    make: 'puppet/make'
+    ntp: 'puppetlabs/ntp'
+    pe_gem: 'puppetlabs/pe_gem'
+    r10k: 'zack/r10k'
+    ruby: 'puppetlabs/ruby'
+    staging: 'puppet/staging'
+    stdlib: 'puppetlabs/stdlib'
+    vcsrepo: 'puppetlabs/vcsrepo'

@@ -1,3 +1,4 @@
 ---
 ntp::package_ensure: 'latest'
 ntp::service_ensure: 'running'
+ntp::restrict: [ '127.0.0.1' ]
