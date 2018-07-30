@@ -20,3 +20,4 @@ fixtures:
     staging: 'puppet/staging'
     stdlib: 'puppetlabs/stdlib'
     vcsrepo: 'puppetlabs/vcsrepo'
+    mysql: 'puppetlabs/mysql'

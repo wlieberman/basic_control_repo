@@ -12,3 +12,4 @@ mod 'puppetlabs/ruby', :latest
 mod 'puppet/staging', :latest
 mod 'puppetlabs/stdlib', :latest
 mod 'puppetlabs/vcsrepo', :latest
+mot 'puppetlabs/mysql', :latest
