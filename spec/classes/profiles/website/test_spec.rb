@@ -8,12 +8,12 @@ describe 'profiles::website::test' do
       end
       it { is_expected.to compile.with_all_deps }
       it do
-        is_expected.to contain_file.with(
+        is_expected.to contain_file('/var/www/html/index.php').with(
           ensure: 'file',
           owner: 'root',
-          group: 'root',
+          group: 'apache',
           mode: '0640',
-          source: 'puppet:///modules/${module_name}/php/index.php'
+          source: 'puppet:///modules/profiles/php/index.php'
         )
       end
     end
