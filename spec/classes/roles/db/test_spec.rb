@@ -10,8 +10,8 @@ describe 'roles::db::test' do
         facts.merge(test_facts)
       end
      it { is_expected.to compile.with_all_deps }
-    # it { is_expected.to contain_class('profiles::base') }
-   #  it { is_expected.to contain_class('profiles::mysql::test_db') }
+     it { is_expected.to contain_class('profiles::base') }
+     it { is_expected.to contain_class('profiles::mysql::test_db') }
     end
   end
 end

@@ -4,5 +4,5 @@ class roles::db::test {
   include ::profiles::base
 
   # Add our test database
-  # include ::profiles::mysql::test_db
+  include ::profiles::mysql::test_db
 }

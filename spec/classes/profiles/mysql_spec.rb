@@ -10,11 +10,11 @@ describe 'profiles::mysql' do
         facts.merge(test_facts)
       end
       it { is_expected.to compile.with_all_deps }
-      #it do
-      #  is_expected.to contain_class('mysql::server').with(
-      #    root_password: 'my_password',
-      #    remove_default_accounts: true,)
-      #end
+      it do
+        is_expected.to contain_class('mysql::server').with(
+          root_password: 'my_password',
+          remove_default_accounts: true,)
+      end
     end
   end
 end

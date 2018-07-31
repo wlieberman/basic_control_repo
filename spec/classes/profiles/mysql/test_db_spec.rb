@@ -10,15 +10,15 @@ describe 'profiles::mysql::test_db' do
         facts.merge(test_facts)
       end
       it { is_expected.to compile.with_all_deps }
-      #it { is_expected.to include_class('profiles::mysql') }
-      #it do
-      #  is_expected.to contain_mysql__db('test_db').with(
-      #    user: 'test_user',
-      #    password: 'test_password',
-      #    host: 'localhost',
-      #    grant: ['SELECT','UPDATE'],
-      #  )
-      #end
+      it { is_expected.to include_class('profiles::mysql') }
+      it do
+        is_expected.to contain_mysql__db('test_db').with(
+          user: 'test_user',
+          password: 'test_password',
+          host: 'localhost',
+          grant: ['SELECT','UPDATE'],
+        )
+      end
     end
   end
 end
