@@ -1,3 +1,4 @@
+# Database Role for Test
 class roles::db::test {
   # Include Base Profiles on everything!
   include ::profiles::base

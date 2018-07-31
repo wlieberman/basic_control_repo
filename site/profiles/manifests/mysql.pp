@@ -1,3 +1,4 @@
+# MySQL Profile
 class profiles::mysql {
 
   # Manage a mysql server

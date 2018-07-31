@@ -1,3 +1,4 @@
+# MySQL Profile for the Test Database
 class profiles::mysql::test_db {
   #require ::profiles::mysql
 
